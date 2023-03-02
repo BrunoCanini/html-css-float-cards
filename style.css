@@ -93,3 +93,10 @@ section > p {
 .sei{
     background-image: url(./img/female3.png);
 }
+
+.fix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine main */
