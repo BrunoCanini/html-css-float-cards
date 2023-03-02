@@ -2,8 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
     font-family: 'Fredoka', sans-serif;
-    font-family: 'Fredoka One', cursive;
+
 }
 
 .contenitore{
@@ -16,6 +19,7 @@
 header > h1{
     color: #e53170;
     text-align: center;
+    font-family: 'Fredoka One', cursive;
 }
 
 header{
@@ -60,7 +64,7 @@ section > p {
     height: 80px;
     font-size: 10px;
     line-height: 20px;
-    padding: 12px 8px;
+    padding: 12px 1px;
     background-color: rgb(15, 14, 23);
     float: left;
 }
