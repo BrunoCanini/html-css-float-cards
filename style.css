@@ -5,9 +5,11 @@
 }
 
 .contenitore{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
+
+/* inzio header */
 
 header > h1{
     color: #e53170;
@@ -19,7 +21,75 @@ header{
     margin-bottom: 35px;
 }
 
+/* fine header */
+/* inizio main */
+
 #special{
     width: 80%;
     margin: auto;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+section > p {
+    text-align: center;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    height: 80px;
+    background-color: rgb(15, 14, 23);
+    margin: 20px 10px;
+    float: left;
+}
+
+.foto{
+    width: 35%;
+    height: 80px;
+    background-size: contain;
+    float: left;
+}
+
+.info{
+    width: 65%;
+    height: 80px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 12px 15px;
+    background-color: rgb(15, 14, 23);
+    float: left;
+}
+
+.info > span, h2{
+    color: white;
+}
+
+.info > p{
+    color: #48bde0;
+}
+
+.uno{
+    background-image: url(./img/male1.png); 
+}
+
+.due{
+    background-image: url(./img/female1.png);
+}
+
+.tre{
+    background-image: url(./img/male2.png);
+}
+
+.quattro{
+    background-image: url(./img/female2.png);
+}
+
+.cinque{
+    background-image: url(./img/male3.png);
+}
+
+.sei{
+    background-image: url(./img/female3.png);
 }
