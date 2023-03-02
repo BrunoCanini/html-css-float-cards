@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore{
+    width: 80%;
+    margin: auto;
+}
+
+header > h1{
+    color: #e53170;
+    text-align: center;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#special{
+    width: 80%;
+    margin: auto;
+}
